@@ -2,7 +2,7 @@
 
 # Mobile_Project
 
-> This is our first project that includes more in-depth HTML and CSS. The task involves coding a figma design which mimics our personal project portfolio which we will later be using to present to future employers. The project was added locally (files and linters also set up) and all changes were successful as linters errors were all fixed. Only the introductory page was coded i.e. menu icons and description.
+> This is our first project that includes more in-depth HTML and CSS. The task involves coding a figma design which mimics our personal project portfolio which we will later be using to present to future employers. The project was added locally (files and linters also set up) and all changes were successful as linters errors were all fixed. The introductory, "my recent works" and "about me" page has been finished for the mobile version.
 
 
 ## Built With
