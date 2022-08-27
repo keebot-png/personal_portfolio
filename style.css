@@ -162,8 +162,8 @@ span {
 }
 
 .works-tags {
-  min-width: 305px;
-  height: 40px;
+  /* min-width: 305px;
+  height: 40px; */
 }
 
 .tags {
@@ -476,4 +476,9 @@ form {
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  
+
 }
