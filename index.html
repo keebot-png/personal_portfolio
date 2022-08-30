@@ -8,51 +8,58 @@
     <title>Keenan Botes personal portfolio </title>
 </head>
 <body>
-    <div class="container">
+    <main class="container">
       <!-- Header Begins -->
       <div class="headline-container">
-        <header class="toolbar-container">
-            <div class="name-container">
-                <a href="#" class="logo">Keenan</a>
-            </div>
-            <div class="menu-container">
-                <a href="#" class="menu"><img src="./Images/Union.svg" alt="Menu icon"></a>
-            </div>
-        </header>
+        <nav class="toolbar-container">
+            <!-- <div class="container-wrapper"> -->
+                <div class="name-container">
+                    <a href="#" class="logo">Keenan</a>
+                </div>
+                <div class="menu-container">
+                    <a href="#" class="menu"><img src="./Images/Union.svg" alt="Menu icon"></a>
+                </div>
+            <!-- </div> -->
+            <!-- <div class="menu">
+                <a href="#" class="menu-item-1">Portfolio</a>
+                <a href="#" class="menu-item-2">About</a>
+                <a href="#" class="menu-item-3">Contact</a>
+            </div> -->
+        </nav>
+        <section class="menu-2">
+            <h2><a href="#" class="menu-item-1">Portfolio</a></h2>
+            <h2><a href="#" class="menu-item-2">About</a></h2>
+            <h2><a href="#" class="menu-item-3">Contact</a></h2>
+        </section>
         <!-- header ends -->
         <!-- description container begins -->
-        <div class="description-container">
-            <div class="description-title-container">
-                <h1 class="description-title">
-                    Hey there I'm<br>
-                    Keenan<br>
-                   <span>I'm a software<br>
-                    developer</span>
-                </h1>
-            </div>
-            <div class="description-content-container">
-                <p class="description-content">
-                    I can help you build a product, <br>
-                     feature or website Look through<br>
-                     some of my work and experience!<br> If you like what you see and have<br>
-                     a project you need coded,<br> 
-                    don’t hestiate to contact me.
-                </p>
-            </div>
-            <div class="social-media-class">
-                <ul class="social-media">
-                    <li class="social-media-links"><a href="#" class="LinkedIn-profile"><img src="./Images/Linkedin-icon.svg" alt="LinkedIn logo" class="linkedIn-class"></a></li>
-                    <li class="social-media-links"><a href="#" class="Twitter-profile"><img src="./Images/twitter.svg" alt="Twitter logo" class="Twitter-class"></a></li>
-                    <li class="social-media-links"><a href="#" class="Medium-profile"><img src="./Images/medium.svg" alt="Medium logo" class="Medium-class"></a></li>
-                    <li class="social-media-links"><a href="#" class="GitHub-profile"><img src="./Images/github.svg" alt="Github logo" class="Github-class"></a></li>
-                    <li class="social-media-links"><a href="#" class="Angellist-profile"><img src="./Images/angellist.svg" alt="Angellist logo" class="Angellist-class"></a></li>
-                </ul>
-            </div>
-        </div>
+        <section class="description-container">
+            <h1 class="description-title">
+                Hey there I'm<br>
+                Keenan<br>
+                <span>I'm a software<br>
+                developer</span>
+            </h1>
+            <p class="description-content">
+                I can help you build a product, <br>
+                    feature or website Look through<br>
+                    some of my work and experience!<br> 
+                    If you like what you see and have<br>
+                    a project you need coded,<br> 
+                don’t hestiate to contact me.
+            </p>
+            <ul class="social-media">
+                <li class="social-media-links"><a href="#" class="LinkedIn-profile"><img src="./Images/Linkedin-icon.svg" alt="LinkedIn logo" class="linkedIn-class"></a></li>
+                <li class="social-media-links"><a href="#" class="Twitter-profile"><img src="./Images/twitter.svg" alt="Twitter logo" class="Twitter-class"></a></li>
+                <li class="social-media-links"><a href="#" class="Medium-profile"><img src="./Images/medium.svg" alt="Medium logo" class="Medium-class"></a></li>
+                <li class="social-media-links"><a href="#" class="GitHub-profile"><img src="./Images/github.svg" alt="Github logo" class="Github-class"></a></li>
+                <li class="social-media-links"><a href="#" class="Angellist-profile"><img src="./Images/angellist.svg" alt="Angellist logo" class="Angellist-class"></a></li>
+            </ul>
+        </section>
         <!-- description container ends -->
       </div>
       <!-- Menu and about page start -->
-    <div class="menu-list">
+    <section class="menu-list">
         <div class="works-heading">
             <h2 class="recent-works-heading">
                 My Recent<br>
@@ -202,23 +209,20 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <section class="about-page">
         <div class="about-box">
-            <div class="about-heading">
-                <h2>
-                    About me
-                </h2>
-            </div>
-            <div class="about-description">
-                <p>I can help you build a product,<br>
-                    feature or website Look through<br>
-                    some of my work and experience! If<br>
-                    you like what you see and have a<br>
-                    project you need coded,<br>
-                    don’t hestiate to contact me.
-                </p>
-            </div>
+            <h2 class="about-heading">
+                About me
+            </h2>
+            <p class="about-description">
+                I can help you build a product,<br>
+                feature or website Look through<br>
+                some of my work and experience! If<br>
+                you like what you see and have a<br>
+                project you need coded,<br>
+                don’t hestiate to contact me.
+            </p>
             <div class="about-cta">
                 <button type="submit" class="about-button">Get My Resume</button>
             </div>
@@ -270,15 +274,13 @@
                         Skills
                     </h3>
                 </div>
-                <div class="topic-list">
-                    <ul class="list-about">
-                        <li class="list-tag">Codekit</li>
-                        <li class="list-tag">GitHub</li>
-                        <li class="list-tag">Codepen</li>
-                        <li class="list-tag">Gitlab</li>
-                        <li class="list-tag">Terminal</li>
-                    </ul>
-                </div>
+                <ul class="list-about">
+                    <li class="list-tag">Codekit</li>
+                    <li class="list-tag">GitHub</li>
+                    <li class="list-tag">Codepen</li>
+                    <li class="list-tag">Gitlab</li>
+                    <li class="list-tag">Terminal</li>
+                </ul>
             </div>
         </div>
         <footer class="contact-form">
@@ -326,6 +328,6 @@
         </footer>
     </section>
       <!-- menu and about page end -->
-    </div>
+</main>
 </body>
 </html>
