@@ -426,6 +426,8 @@ form {
   border: 1px solid #d0d9d4;
 }
 
+textarea { resize: none; }
+
 .contact-button {
   display: flex;
   justify-content: center;
