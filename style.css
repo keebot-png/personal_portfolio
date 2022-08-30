@@ -362,7 +362,9 @@ span {
   display: flex;
   flex-direction: column;
   justify-content: center;
+
   /* flex: 1fr 1fr 330px; */
+
   /* max-width: 300px; */
 }
 
@@ -425,7 +427,7 @@ span {
   bottom: 0;
   border-radius: 4px;
   background: #fff;
-  border: 1px solid #60C095
+  border: 1px solid #60c095;
 }
 
 textarea { resize: none; }
