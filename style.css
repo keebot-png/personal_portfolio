@@ -803,7 +803,7 @@ form {
     border-radius: 8px;
     margin: 5px;
     min-width: 200px;
-    height: 450px;
+    /* height: 450px; */
   }
 
   .icon-logo {
@@ -838,7 +838,7 @@ form {
 
     /* gap: 12px; */
     border-radius: 8px;
-    width: 200px;
+    /* width: 200px; */
     margin-top: 60px;
   }
 
