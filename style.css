@@ -358,11 +358,12 @@ span {
   margin-right: 15px;
 }
 
-.contact-form {
+.contact-footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  flex: 1fr 1fr 330px;
+  /* flex: 1fr 1fr 330px; */
+  /* max-width: 300px; */
 }
 
 .contact-head {
@@ -380,6 +381,7 @@ span {
   line-height: 52px;
   text-align: center;
   color: #172b4d;
+  flex-wrap: wrap;
 }
 
 .contact-details {
@@ -387,7 +389,7 @@ span {
   flex-direction: column;
   align-content: center;
   gap: 30px;
-  flex-basis: 327px;
+  min-width: 220px;
   height: 330px;
   margin-top: 15px;
 }
@@ -402,28 +404,28 @@ span {
 
 .contact-10 {
   height: 48px;
-  width: 327px;
+  width: 225px;
   border-radius: 4px;
   border: 1px solid #d0d9d4;
 }
 
 .contact-20 {
   height: 48px;
-  width: 327px;
+  width: 225px;
   border-radius: 4px;
   border: 1px solid #d0d9d4;
 }
 
 .contact-30 {
   height: 114px;
-  width: 327px;
+  width: 225px;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
   border-radius: 4px;
   background: #fff;
-  border: 1px solid #d0d9d4;
+  border: 1px solid #60C095
 }
 
 textarea { resize: none; }
