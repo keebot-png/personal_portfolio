@@ -400,7 +400,7 @@ form {
   margin-top: 15px;
 }
 
-.contact-list {
+.contact-text {
   display: flex;
   flex-direction: column;
   gap: 15px;
