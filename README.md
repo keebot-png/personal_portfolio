@@ -2,7 +2,9 @@
 
 # Desktop_version
 
+
 > This is our second project that includes more in-depth HTML and CSS. The task involves coding a figma design which mimics our personal project portfolio which we will later be using to present to future employers. The project was added locally (files and linters also set up) and all changes were successful as linters errors were all fixed. The introductory, "my recent works", "about me" and the contact form page has been finished for the mobile version and desktop version. Media queries were added in order to make the design responsive and animations were also added to certain buttons.
+
 
 
 ## Built With
@@ -43,6 +45,7 @@ Feel free to check the [issues page](../../issues/).
 ## Acknowledgments
 
 - Microverse
+- Mostafa Shahat
 
 ## 📝 License
 

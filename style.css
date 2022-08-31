@@ -366,21 +366,24 @@ span {
   margin-right: 15px;
 }
 
-.contact-form {
+.contact-footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  flex: 1fr 1fr 330px;
+
+  /* flex: 1fr 1fr 330px; */
+
+  /* max-width: 300px; */
 }
 
-.contact-heading {
+.contact-head {
   display: flex;
   justify-content: center;
   margin: 10px;
   padding: 0;
 }
 
-.contact-h2 {
+.contact-class {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -388,14 +391,15 @@ span {
   line-height: 52px;
   text-align: center;
   color: #172b4d;
+  flex-wrap: wrap;
 }
 
-form {
+.contact-details {
   display: flex;
   flex-direction: column;
   align-content: center;
   gap: 30px;
-  flex-basis: 327px;
+  min-width: 220px;
   height: 330px;
   margin-top: 15px;
 }
@@ -434,12 +438,14 @@ form {
   border: 1px solid #60c095;
 }
 
-.contact-button {
+textarea { resize: none; }
+
+.contact-button-1 {
   display: flex;
   justify-content: center;
 }
 
-.button-submit {
+.button-submit-1 {
   padding: 12px;
   height: 60px;
   background: #36b37f;
@@ -473,11 +479,11 @@ form {
   }
 }
 
-.button-submit:hover {
+.button-submit-1:hover {
   animation: bounce 1s;
 }
 
-.my-email {
+.my-email-1 {
   text-align: center;
   font-family: 'Inter', sans-serif;
   font-style: normal;
