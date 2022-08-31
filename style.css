@@ -358,21 +358,24 @@ span {
   margin-right: 15px;
 }
 
-.contact-form {
+.contact-footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  flex: 1fr 1fr 330px;
+
+  /* flex: 1fr 1fr 330px; */
+
+  /* max-width: 300px; */
 }
 
-.contact-heading {
+.contact-head {
   display: flex;
   justify-content: center;
   margin: 10px;
   padding: 0;
 }
 
-.contact-h2 {
+.contact-class {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -380,19 +383,20 @@ span {
   line-height: 52px;
   text-align: center;
   color: #172b4d;
+  flex-wrap: wrap;
 }
 
-form {
+.contact-details {
   display: flex;
   flex-direction: column;
   align-content: center;
   gap: 30px;
-  flex-basis: 327px;
+  min-width: 220px;
   height: 330px;
   margin-top: 15px;
 }
 
-.contact-list {
+.contact-text {
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -400,38 +404,40 @@ form {
   justify-content: center;
 }
 
-.contact-1 {
+.contact-10 {
   height: 48px;
-  width: 327px;
+  width: 225px;
   border-radius: 4px;
   border: 1px solid #d0d9d4;
 }
 
-.contact-2 {
+.contact-20 {
   height: 48px;
-  width: 327px;
+  width: 225px;
   border-radius: 4px;
   border: 1px solid #d0d9d4;
 }
 
-.contact-3 {
+.contact-30 {
   height: 114px;
-  width: 327px;
+  width: 225px;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
   border-radius: 4px;
   background: #fff;
-  border: 1px solid #d0d9d4;
+  border: 1px solid #60c095;
 }
 
-.contact-button {
+textarea { resize: none; }
+
+.contact-button-1 {
   display: flex;
   justify-content: center;
 }
 
-.button-submit {
+.button-submit-1 {
   padding: 12px;
   height: 60px;
   background: #36b37f;
@@ -465,11 +471,11 @@ form {
   }
 }
 
-.button-submit:hover {
+.button-submit-1:hover {
   animation: bounce 1s;
 }
 
-.my-email {
+.my-email-1 {
   text-align: center;
   font-family: 'Inter', sans-serif;
   font-style: normal;

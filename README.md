@@ -2,7 +2,7 @@
 
 # Mobile_Project
 
-> This is our first project that includes more in-depth HTML and CSS. The task involves coding a figma design which mimics our personal project portfolio which we will later be using to present to future employers. The project was added locally (files and linters also set up) and all changes were successful as linters errors were all fixed. The introductory, "my recent works", "about me" and the contact form page has been finished for the mobile version.
+>The project was added locally (files and linters also set up) and all changes were successful as linters errors were all fixed. The introductory, "my recent works", "about me" and the contact form page has been finished for the mobile version. Also the form is functional and recieves responses from the text.
 
 
 ## Built With
@@ -43,9 +43,8 @@ Feel free to check the [issues page](../../issues/).
 ## Acknowledgments
 
 - Microverse
+- Mostafa Shahat
 
 ## 📝 License
 
-- This project is [MIT](./license) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+- This project is [MIT](./MIT.md) licensed.
