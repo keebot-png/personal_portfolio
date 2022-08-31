@@ -408,23 +408,23 @@ form {
   justify-content: center;
 }
 
-.contact-1 {
+.contact-10 {
   height: 48px;
-  width: 250px;
+  width: 225px;
   border-radius: 4px;
   border: 1px solid #d0d9d4;
 }
 
-.contact-2 {
+.contact-20 {
   height: 48px;
-  width: 250px;
+  width: 225px;
   border-radius: 4px;
   border: 1px solid #d0d9d4;
 }
 
-.contact-3 {
+.contact-30 {
   height: 114px;
-  width: 250px;
+  width: 225px;
   left: 0;
   right: 0;
   top: 0;
