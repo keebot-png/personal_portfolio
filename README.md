@@ -1,8 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Mobile_Project
+# Desktop_version
 
->The project was added locally (files and linters also set up) and all changes were successful as linters errors were all fixed. The introductory, "my recent works", "about me" and the contact form page has been finished for the mobile version. Also the form is functional and recieves responses from the text.
+
+> All changes were successful as linters errors were all fixed. The introductory, "my recent works", "about me" and the contact form page has been finished for the mobile version and desktop version. Media queries were added in order to make the design responsive and animations were also added to certain buttons.
+
 
 
 ## Built With
