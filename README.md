@@ -1,11 +1,11 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Desktop_version
+# Personal Portfolio using Github pages
 
 
-> All changes were successful as linters errors were all fixed. The introductory, "my recent works", "about me" and the contact form page has been finished for the mobile version and desktop version. Media queries were added in order to make the design responsive and animations were also added to certain buttons.
+> All changes were successful as linters errors were all fixed. The introductory, "my recent works", "about me" and the contact form page has been finished for the mobile version and desktop version for the personal portfolio. The portfolio was successfully deployed using github pages. 
 
-
+Live link: https://keebot-png.github.io/personal_portfolio/
 
 ## Built With
 
@@ -45,7 +45,6 @@ Feel free to check the [issues page](../../issues/).
 ## Acknowledgments
 
 - Microverse
-- Mostafa Shahat
 
 ## 📝 License
 
