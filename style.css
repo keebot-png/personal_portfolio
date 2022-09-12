@@ -56,6 +56,7 @@ body { margin: 0; }
 }
 
 .change .line-1 {
+<<<<<<< HEAD
   transform: rotateZ(-405deg) translate(-8px, 6px);
 }
 
@@ -66,6 +67,18 @@ body { margin: 0; }
 .change .line-3 {
   transform: rotateZ(405deg) translate(-8px, -6px);
 }
+=======
+    transform: rotateZ(-405deg) translate(-8px, 6px);
+  }
+  
+  .change .line-2 {
+    opacity: 0;
+  }
+  
+  .change .line-3 {
+    transform: rotateZ(405deg) translate(-8px, -6px);
+  }
+>>>>>>> 99d19282b913a67b3b0f37ea33b13d1815cc8a9f
 
 .nav-menu {
   display: none;
