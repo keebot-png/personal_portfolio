@@ -1,16 +1,17 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Personal Portfolio using Github pages
+# Hamburger Menu Functionality
 
-
-> All changes were successful as linters errors were all fixed. The introductory, "my recent works", "about me" and the contact form page has been finished for the mobile version and desktop version for the personal portfolio. The portfolio was successfully deployed using github pages. 
+> A new Javascript linter file was added and all changes were successful as linters errors were fixed. The introductory, "my recent works", "about me" and the contact form page has been finished for the mobile version and desktop version for the personal portfolio. The current project uses Javascript to manipulate the hamburger menu icon and easily navigate through the site of the mobile version.
 
 Live link: https://keebot-png.github.io/personal_portfolio/
 
 ## Built With
 
 - Major languages
--- HTML and CSS
+--  HTML
+--  CSS
+--  Javascript
 
 - Technologies used
 --GitHub

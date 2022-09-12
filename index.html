@@ -10,18 +10,33 @@
 <body>
     <main class="container">
       <div class="headline-container">
+        <div class="nav-list-menu">
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#portfolio-section" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about-section" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact-foot" class="nav-link">Contact</a>
+                </li>
+            </ul>
         <nav class="toolbar-container">
             <div class="name-container">
                 <a href="#" class="logo">Keenan</a>
             </div>
-            <div class="menu-container">
-                <a href="#" class="menu"><img src="./Images/Union.svg" alt="Menu icon"></a>
-            </div>
+            <div class="hamburger">
+                <span class="bar line-1"></span>
+                <span class="bar line-2"></span>
+                <span class="bar line-3"><span>                    
+            </div> 
         </nav>
+    </div>
         <section class="menu-2">
-            <h2><a href="#" class="menu-item-1">Portfolio</a></h2>
-            <h2><a href="#" class="menu-item-2">About</a></h2>
-            <h2><a href="#" class="menu-item-3">Contact</a></h2>
+            <h2><a href="#portfolio-section" class="menu-item-1">Portfolio</a></h2>
+            <h2><a href="#about-section" class="menu-item-2">About</a></h2>
+            <h2><a href="#contact-foot" class="menu-item-3">Contact</a></h2>
         </section>
         <section class="description-container">
             <h1 class="description-title">
@@ -46,7 +61,7 @@
             </ul>
         </section>
       </div>
-    <section class="menu-list">
+    <section id="portfolio-section" class="menu-list">
         <div class="works-heading">
             <h2 class="recent-works-heading">
                 My Recent Works
@@ -200,7 +215,7 @@
             </div>
         </div>
     </section>
-    <section class="about-page">
+    <section id="about-section" class="about-page">
         <div class="about-box">
             <h2 class="about-heading">
                 About me
@@ -270,7 +285,7 @@
         </div>
         
     </section>
-    <footer class="contact-footer">
+    <footer id="contact-foot" class="contact-footer">
         <div class="contact-container">
             <div class="contact-head"> 
                 <h2 class="contact-class"> 
@@ -321,5 +336,6 @@
         </ul> 
     </div>
 </main>
+<script src="script.js"></script>
 </body>
 </html>
