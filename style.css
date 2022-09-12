@@ -55,7 +55,17 @@ body { margin: 0; }
   transition: all 0.8s;
 }
 
-/* .nav-menu add */
+.change .line-1 {
+    transform: rotateZ(-405deg) translate(-8px, 6px);
+  }
+  
+  .change .line-2 {
+    opacity: 0;
+  }
+  
+  .change .line-3 {
+    transform: rotateZ(405deg) translate(-8px, -6px);
+  }
 
 .nav-menu {
   display: none;
