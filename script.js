@@ -211,7 +211,7 @@ const formSubmit = document.querySelector('.button-submit-1');
 // Checking if the email is valid
 
 const isEmailValid = (email) => {
-  if (email.match(/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/)) {
+  if (email.match(/^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9-]+(?:\.[a-z0-9-]+)*$/)) {
     return true;
   }
   return false;
