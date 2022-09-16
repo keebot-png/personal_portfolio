@@ -205,3 +205,26 @@ for (let i = 3; i < popData.length; i += 1) {
 </div>
   `;
 }
+
+const formSubmit = document.querySelector('.button-submit-1');
+
+// Checking if the email is valid
+
+const isEmailValid = (email) => {
+  if (email.match(/^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9-]+(?:\.[a-z0-9-]+)*$/)) {
+    return true;
+  }
+  return false;
+};
+
+// Form validation
+
+formSubmit.addEventListener('click', (event) => {
+  const emailValid = document.getElementById('email').value;
+  if (!isEmailValid(emailValid)) {
+    document.querySelector('.label').innerHTML = 'Kindly enter the email in lowercase';
+    event.preventDefault();
+  } else {
+    document.querySelector('.label').innerHTML = '';
+  }
+});

@@ -785,6 +785,16 @@ textarea { resize: none; }
   flex-wrap: wrap;
 }
 
+/* email validation text */
+
+.label {
+  font-family: "Inter", sans-serif;
+  color: #d30505;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+}
+
 @media screen and (min-width: 768px) {
   html,
   body {
