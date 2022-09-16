@@ -251,3 +251,14 @@ body.onload = () => {
 document.querySelectorAll('input').forEach((input) => {
   input.addEventListener('input', (event) => {
     event.preventDefault();
+    //Calling input values
+const nameInfo = document.querySelector('#name').value;
+const emailInfo = document.querySelector('#email').value;
+const msgInfo = document.querySelector('#message').value;
+
+// Store values in object;
+const userInfo = {
+  name: nameInfo,
+  email: emailInfo,
+  message: msgInfo,
+};
