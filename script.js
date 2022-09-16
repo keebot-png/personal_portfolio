@@ -228,3 +228,26 @@ formSubmit.addEventListener('click', (event) => {
     document.querySelector('.label').innerHTML = '';
   }
 });
+
+//local storage project
+
+const form = document.querySelector('form');
+const body = document.querySelector('body');
+const nameValue = document.querySelector('#name');
+const emailInput = document.querySelector('#email');
+const msg = document.querySelector('#message');
+
+const recievingData = localStorage.getItem('myUserInfo');
+
+body.onload = () => {
+  if (recievingData) {
+    const objectToString = JSON.parse(recievingData);
+    nameValue.value = objectToString.name;
+    emailInput.value = objectToString.email;
+    msg.value = objectToString.message;
+  }
+};
+
+document.querySelectorAll('input').forEach((input) => {
+  input.addEventListener('input', (event) => {
+    event.preventDefault();
