@@ -28,8 +28,6 @@ const popData = [
   {
     classNO: 'n1',
     Subtitle: 'Keeping track of \nhundreds of components',
-    // ImageDesktop: "./images",
-    // ImageMobile: "./images",
     Technologies: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
     Description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     githubIcon: './images/github-log.svg',
@@ -40,8 +38,6 @@ const popData = [
   {
     classNO: 'n2',
     Subtitle: 'Keeping track of \nhundreds of components',
-    // ImageDesktop: "./images",
-    // ImageMobile: "./images",
     Technologies: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
     Description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     githubIcon: './images/github-log.svg',
@@ -52,8 +48,6 @@ const popData = [
   {
     classNO: 'n3',
     Subtitle: 'Keeping track of \nhundreds of components',
-    // ImageDesktop: "./images",
-    // ImageMobile: "./images",
     Technologies: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
     Description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     githubIcon: './images/github-log.svg',
@@ -64,8 +58,6 @@ const popData = [
   {
     classNO: 'n4',
     Subtitle: 'Keeping track of \nhundreds of components',
-    // ImageDesktop: "./images",
-    // ImageMobile: "./images",
     Technologies: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
     Description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     githubIcon: './images/github-log.svg',
@@ -76,8 +68,6 @@ const popData = [
   {
     classNO: 'n5',
     Subtitle: 'Keeping track of \nhundreds of components',
-    // ImageDesktop: "./images",
-    // ImageMobile: "./images",
     Technologies: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
     Description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     githubIcon: './images/github-log.svg',
@@ -88,8 +78,6 @@ const popData = [
   {
     classNO: 'n6',
     Subtitle: 'Keeping track of \nhundreds of components',
-    // ImageDesktop: "./images",
-    // ImageMobile: "./images",
     Technologies: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
     Description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     githubIcon: './images/github-log.svg',
