@@ -229,7 +229,7 @@ formSubmit.addEventListener('click', (event) => {
   }
 });
 
-//local storage project
+// local storage project
 
 const form = document.querySelector('form');
 const body = document.querySelector('body');
@@ -251,22 +251,22 @@ body.onload = () => {
 document.querySelectorAll('input').forEach((input) => {
   input.addEventListener('input', (event) => {
     event.preventDefault();
-    //Calling input values
-const nameInfo = document.querySelector('#name').value;
-const emailInfo = document.querySelector('#email').value;
-const msgInfo = document.querySelector('#message').value;
+    // Calling input values
+    const nameInfo = document.querySelector('#name').value;
+    const emailInfo = document.querySelector('#email').value;
+    const msgInfo = document.querySelector('#message').value;
 
-// Store values in object;
-const userInfo = {
-  name: nameInfo,
-  email: emailInfo,
-  message: msgInfo,
-};
+    // Store values in object;
+    const userInfo = {
+      name: nameInfo,
+      email: emailInfo,
+      message: msgInfo,
+    };
 
     localStorage.setItem('myUserInfo', JSON.stringify(userInfo));
-});
+  });
 });
 
 form.addEventListener('submit', (e) => {
-e.preventDefault();
+  e.preventDefault();
 });
