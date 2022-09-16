@@ -103,7 +103,7 @@ const popData = [
 const modal = document.querySelector('.modal');
 
 // eslint-disable-next-line no-unused-vars
-function modalSection(data) {;
+function modalSection(data) {
   modal.style.display = 'flex';
   modal.innerHTML += `
         <div class="modal-content">
