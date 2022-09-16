@@ -105,7 +105,7 @@ const modal = document.querySelector('.modal');
 // eslint-disable-next-line no-unused-vars
 function modalSection(data) {
   modal.style.display = 'flex';
-  modal.innerHTML += `
+  modal.innerHTML = `
         <div class="modal-content">
             <div class="modal-top">
                 <h2>&times</h2>
@@ -136,7 +136,6 @@ function modalSection(data) {
   `;
   // Adding event listeners to respective buttons
 
-  const modalTriggerbutton = document.querySelector('.project-button');
   const modalCloseButton = document.querySelector('.modal-top');
   function toggleModal() {
     if (getComputedStyle(modal).display === 'flex') {
@@ -150,8 +149,6 @@ function modalSection(data) {
       modal.classList.add('modal-show');
     }
   }
-
-  modalTriggerbutton.addEventListener('click', () => toggleModal());
 
   modalCloseButton.addEventListener('click', () => toggleModal());
 

@@ -582,10 +582,6 @@ textarea { resize: none; }
 
 /* Modal CSS */
 
-/* .popup {
-  display: none;
-} */
-
 .modal {
   position: fixed;
   top: 0;
