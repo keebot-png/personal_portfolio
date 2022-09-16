@@ -678,13 +678,14 @@ textarea { resize: none; }
 
 .modal-top {
   position: absolute;
+  display: flex;
+  align-items: center;
+  height: 30px;
   top: 0;
   right: 0;
-
-  /* margin: 0.5rem; */
+  margin: 0.5rem;
   padding: 2px 12px;
-
-  /* background: #EBECF0; */
+  background: #ebecf0;
   border-radius: 8px;
   font-weight: bold;
   cursor: pointer;
@@ -1350,10 +1351,6 @@ textarea { resize: none; }
 
   /* modal content */
 
-  /* .popup {
-    display: none;
-  } */
-
   .modal-content {
     position: relative;
     background-color: #fff;
@@ -1401,6 +1398,9 @@ textarea { resize: none; }
 
   .modal-top {
     position: absolute;
+    display: flex;
+    align-items: center;
+    height: 30px;
     top: 0;
     right: 0;
     margin: 0.5rem;
