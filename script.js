@@ -100,13 +100,12 @@ const popData = [
 ];
 
 // Adding Modal dynamically
-const popUp1 = document.querySelector('.popup');
+const modal = document.querySelector('.modal');
 
 // eslint-disable-next-line no-unused-vars
-function modalSection(data) {
-  popUp1.style.display = 'flex';
-  popUp1.innerHTML += `
-  <div class="modal" id="modal-1">
+function modalSection(data) {;
+  modal.style.display = 'flex';
+  modal.innerHTML += `
         <div class="modal-content">
             <div class="modal-top">
                 <h2>&times</h2>
@@ -120,8 +119,8 @@ function modalSection(data) {
                     </ul>
                 </div>
                 <div class="buttons">
-                    <button class="modal-11">See live <img src="${popData[data].liveIcon}" alt="live logo icon"></button>
-                    <button class="modal-12">See Source <img src="${popData[data].githubIcon}" alt="github logo"></button>
+                    <button class="modal-11" href="${popData[data].ProjectLink}">See live <img src="${popData[data].liveIcon}" alt="live logo icon"></button>
+                    <button class="modal-12" href="${popData[data].GitHubLink}">See Source <img src="${popData[data].githubIcon}" alt="github logo"></button>
                 </div>
             </div>
             
@@ -138,7 +137,6 @@ function modalSection(data) {
   // Adding event listeners to respective buttons
 
   const modalTriggerbutton = document.querySelector('.project-button');
-  const modal = document.querySelector('.modal');
   const modalCloseButton = document.querySelector('.modal-top');
   function toggleModal() {
     if (getComputedStyle(modal).display === 'flex') {
