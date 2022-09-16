@@ -262,3 +262,11 @@ const userInfo = {
   email: emailInfo,
   message: msgInfo,
 };
+
+    localStorage.setItem('myUserInfo', JSON.stringify(userInfo));
+});
+});
+
+form.addEventListener('submit', (e) => {
+e.preventDefault();
+});
