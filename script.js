@@ -107,8 +107,8 @@ function modalSection(data) {
                     </ul>
                 </div>
                 <div class="buttons">
-                    <button class="modal-11" href="${popData[data].ProjectLink}">See live <img src="${popData[data].liveIcon}" alt="live logo icon"></button>
-                    <button class="modal-12" href="${popData[data].GitHubLink}">See Source <img src="${popData[data].githubIcon}" alt="github logo"></button>
+                    <button class="modal-11" onclick="window.location.href='${popData[data].ProjectLink}'">See live <img src="${popData[data].liveIcon}" alt="live logo icon"></button>
+                    <button class="modal-12" onclick="window.location.href='${popData[data].GitHubLink}'">See Source <img src="${popData[data].githubIcon}" alt="github logo"></button>
                 </div>
             </div>
             
@@ -116,8 +116,8 @@ function modalSection(data) {
                 <p>${popData[data].Description}</p>
             </div>
             <div class="buttons-1">
-                <button class="modal-11">See live <img src="${popData[data].liveIcon}" alt="live logo icon"></button>
-                <button class="modal-12">See Source <img src="${popData[data].githubIcon}" alt="github logo"></button>
+                <button class="modal-11" onclick="window.location.href='${popData[data].ProjectLink}'">See live <img src="${popData[data].liveIcon}" alt="live logo icon"></button>
+                <button class="modal-12" onclick="window.location.href='${popData[data].GitHubLink}'">See Source <img src="${popData[data].githubIcon}" alt="github logo"></button>
             </div>
         </div>
     </div>

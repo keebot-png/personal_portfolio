@@ -723,6 +723,7 @@ textarea { resize: none; }
   gap: 12px;
   list-style-type: none;
   padding: 0;
+  flex-wrap: wrap;
 }
 
 .modal-list li {
