@@ -788,11 +788,11 @@ textarea { resize: none; }
 /* email validation text */
 
 .label {
-  font-family: "Inter", sans-serif !important;
+  font-family: "Inter", sans-serif;
   color: #d30505;
   font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
+  font-weight: 500;
+  font-size: 21px;
 }
 
 @media screen and (min-width: 768px) {
