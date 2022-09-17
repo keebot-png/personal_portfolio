@@ -93,7 +93,7 @@ const modal = document.querySelector('.modal');
 // eslint-disable-next-line no-unused-vars
 function modalSection(data) {
   modal.style.display = 'flex';
-  modal.innerHTML = `
+  modal.innerHTML += `
         <div class="modal-content">
             <div class="modal-top">
                 <h2>&times</h2>
