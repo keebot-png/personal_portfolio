@@ -139,14 +139,19 @@ body { margin: 0; }
   line-height: 52px;
   text-align: center;
   overflow: hidden;
+
   /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid #333;
+  border-right: 0.15em solid #333;
+
   /* The typewriter cursor */
   white-space: nowrap;
+
   /* Keeps the content on a single line */
-  letter-spacing: .15em;
+  letter-spacing: 0.15em;
+
   /* Adjust as needed */
   animation: typing 5s steps(30, end) infinite;
+
   /* The typing animation */
 }
 
@@ -156,6 +161,7 @@ body { margin: 0; }
   from {
     width: 0;
   }
+
   to {
     width: 100%;
   }
@@ -281,8 +287,10 @@ body { margin: 0; }
   display: flex;
   flex-direction: row;
   align-items: center;
+
   /* justify-content: space-between; */
   gap: 8px;
+
   /* margin-right: 40px; */
   list-style-type: none;
 }
@@ -1505,7 +1513,7 @@ textarea { resize: none; }
     max-width: 800px;
     background-repeat: no-repeat;
     background-size: contain;
-}
+  }
 
   .buttons {
     display: flex;
