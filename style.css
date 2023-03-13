@@ -138,9 +138,28 @@ body { margin: 0; }
   font-size: 35px;
   line-height: 52px;
   text-align: center;
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid #333;
+  /* The typewriter cursor */
+  white-space: nowrap;
+  /* Keeps the content on a single line */
+  letter-spacing: .15em;
+  /* Adjust as needed */
+  animation: typing 5s steps(30, end) infinite;
+  /* The typing animation */
 }
 
 .description-title span { color: #36b37f; }
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
 
 .description-content {
   font-family: 'Inter', sans-serif;
@@ -245,6 +264,13 @@ body { margin: 0; }
   height: 57px;
 }
 
+.work-img {
+  width: 310px;
+  border-radius: 8px;
+  height: 200px;
+  align-self: center;
+}
+
 .works-tags {
   min-width: 305px;
   height: 40px;
@@ -255,9 +281,9 @@ body { margin: 0; }
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   gap: 8px;
-  margin-right: 40px;
+  /* margin-right: 40px; */
   list-style-type: none;
 }
 
@@ -383,6 +409,7 @@ body { margin: 0; }
   font-size: 17px;
   line-height: 24px;
   border: #fff;
+  text-decoration: none;
 }
 
 .about-button:hover {
@@ -492,6 +519,7 @@ body { margin: 0; }
   gap: 15px;
   list-style-type: none;
   justify-content: center;
+  padding: 0;
 }
 
 .contact-10 {
@@ -738,10 +766,12 @@ textarea { resize: none; }
   padding: 8px 12px;
 }
 
-.modal-middle-1 {
+/* .modal-middle-1 {
+} */
+
+.modal-img {
   height: 250px;
-  min-width: 250px;
-  background-image: url(./images/mobile-image.png);
+  max-width: 400px;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -955,7 +985,6 @@ textarea { resize: none; }
     display: grid;
     order: 1;
     grid-template-rows: repeat(2, 1fr);
-    background-color: #d0d9d4;
     border: 3px solid #d0d9d4;
     height: 474px;
     min-width: 220px;
@@ -999,6 +1028,7 @@ textarea { resize: none; }
     border-radius: 4px;
     gap: 10px;
     margin-top: 35px;
+    padding: 0 10px;
   }
 
   .tech-tag {
@@ -1107,6 +1137,7 @@ textarea { resize: none; }
     color: #fff;
     margin-top: 15px;
     align-items: center;
+    text-decoration: none;
   }
 
   .about-card-box {
@@ -1466,16 +1497,15 @@ textarea { resize: none; }
     padding: 8px 12px;
   }
 
-  .modal-middle-1 {
+  .modal-img {
     display: flex;
     align-items: center;
-    margin-top: 2rem;
-    background-image: url(./images/desktop-image.png);
+    border: 2px solid black;
+    height: 600px;
+    max-width: 800px;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 600px;
-    min-width: 600px;
-  }
+}
 
   .buttons {
     display: flex;

@@ -26,64 +26,70 @@ menuIcon.addEventListener('click', closeScreen);
 // Card array
 const popData = [
   {
-    classNO: 'n1',
-    Subtitle: 'Keeping track of \nhundreds of components',
-    Technologies: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
-    Description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    Project_name: 'Meals API',
+    Subtitle: 'JavaScript meals API project',
+    Technologies: ['CSS', 'Javascript', 'HTML'],
+    Description: 'This project is build around the MealDB API using HTML5, CSS and JavaScript. You can view various types of Dishes & Meals Moreover, you can interact with the meals list by giving them a like or by adding some comments about them.',
+    thumbnail: "./Images/card_images/restuarant-meal.png",
     githubIcon: './images/github-log.svg',
     liveIcon: './images/live-icon.svg',
-    ProjectLink: 'https://keebot-png.github.io/personal_portfolio/',
-    GitHubLink: 'https://github.com/keebot-png/personal_portfolio',
+    ProjectLink: 'https://graceabike.github.io/JavaScript-Capstone-Project/dist/index.html',
+    GitHubLink: 'https://github.com/keebot-png/JavaScript-Capstone-Project',
   },
   {
-    classNO: 'n2',
-    Subtitle: 'Keeping track of \nhundreds of components',
-    Technologies: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
-    Description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    Project_name: 'React calculator',
+    Subtitle: 'Math calculator build with React',
+    Technologies: ['CSS', 'Javascript', 'React', 'Redux'],
+    Description: 'This web app lets users make simple calculations and also allows user to see random quotes right from the application, built with React following SPA approach.',
+    thumbnail: "./Images/card_images/react-calculator.png",
     githubIcon: './images/github-log.svg',
     liveIcon: './images/live-icon.svg',
-    ProjectLink: 'https://keebot-png.github.io/personal_portfolio/',
-    GitHubLink: 'https://github.com/keebot-png/personal_portfolio',
+    ProjectLink: 'https://maths-calculator-quote.netlify.app/',
+    GitHubLink: 'https://github.com/keebot-png/math-magicians-1',
   },
   {
-    classNO: 'n3',
-    Subtitle: 'Keeping track of \nhundreds of components',
-    Technologies: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
-    Description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    Project_name: 'Tech conference website',
+    Subtitle: 'Conference website to promote a tech event',
+    Technologies: ['Bootstrap', 'CSS', 'Javascript', 'HTML'],
+    Description: 'This is the first capstone project of the Microverse course which involved promoting an online tech event which showcased the latest technologies. This website encompasses everything that we learned in the first module and it was built using Bootstrap.',
+    thumbnail: "./Images/card_images/tech-conference.png",
     githubIcon: './images/github-log.svg',
     liveIcon: './images/live-icon.svg',
-    ProjectLink: 'https://keebot-png.github.io/personal_portfolio/',
-    GitHubLink: 'https://github.com/keebot-png/personal_portfolio',
+    ProjectLink: 'https://keebot-png.github.io/Capstone-project-1/',
+    GitHubLink: 'https://github.com/keebot-png/Capstone-project-1',
   },
   {
-    classNO: 'n4',
-    Subtitle: 'Keeping track of \nhundreds of components',
-    Technologies: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
-    Description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    Project_name: 'Space travel project',
+    Subtitle: 'Space Travel project with React and Redux',
+    Technologies: ['React', 'Redux', 'Javascript', 'Bootstrap'],
+    Description: 'A website that uses a real live api from space x and displays it, You are able to Reserve a rocket and join missions which displays on your profile page.',
+    thumbnail: "./Images/card_images/falcon-app.png",
     githubIcon: './images/github-log.svg',
     liveIcon: './images/live-icon.svg',
-    ProjectLink: 'https://keebot-png.github.io/personal_portfolio/',
-    GitHubLink: 'https://github.com/keebot-png/personal_portfolio',
+    ProjectLink: 'https://space-travel-site-react.netlify.app/',
+    GitHubLink: 'https://github.com/keebot-png/Space-Travel-Project',
   },
   {
-    classNO: 'n5',
+    Project_name: 'Ecommerce style React and Redux',
     Subtitle: 'Keeping track of \nhundreds of components',
-    Technologies: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
-    Description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    Technologies: ['React', 'CSS', 'Bootstrap', 'Redux'],
+    Description: 'This is a mobile app that is built using React and Redux as a state management system. This is an ecommerce store that displays product categories and the details of those specific products e.g. size, brand, color etc. IMPORTANT: This has only been designed for MOBILE use ONLY. I am currently modifying it to suit desktop as well.',
+    thumbnail: "./Images/card_images/shopping-site.png",
     githubIcon: './images/github-log.svg',
     liveIcon: './images/live-icon.svg',
-    ProjectLink: 'https://keebot-png.github.io/personal_portfolio/',
-    GitHubLink: 'https://github.com/keebot-png/personal_portfolio',
+    ProjectLink: 'https://simple-shopping-app-react-redux.netlify.app/',
+    GitHubLink: 'https://github.com/keebot-png/Shopping-Website',
   },
   {
-    classNO: 'n6',
-    Subtitle: 'Keeping track of \nhundreds of components',
-    Technologies: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
-    Description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    Project_name: 'Awesome Books JavaScript',
+    Subtitle: 'Awesome Books JavaScript',
+    Technologies: ['CSS', 'Javascript', 'HTML', 'Bootstrap'],
+    Description: 'A basic website that allows you to add and remove books. There has been added styling to match the provided template using Bootstrap. Classes and methods were used in this project instead of objects and arrays. A functional Navbar, footer and a contact page was created. Each nav-item contains an onclick event listener containing a function which enables the user to switch to the corresponding page. Lastly the timestamp below the navbar was added dynamically using Javascript showing the correct date and time.',
+    thumbnail: "./Images/card_images/awesome-books.png",
     githubIcon: './images/github-log.svg',
     liveIcon: './images/live-icon.svg',
-    ProjectLink: 'https://keebot-png.github.io/personal_portfolio/',
-    GitHubLink: 'https://github.com/keebot-png/personal_portfolio',
+    ProjectLink: 'https://keebot-png.github.io/Awesome-Books-1/',
+    GitHubLink: 'https://github.com/keebot-png/Awesome-Books-1',
   },
 ];
 
@@ -98,7 +104,7 @@ function modalSection(data) {
             <div class="modal-top">
                 <h2>&times</h2>
             </div>
-            <div class="modal-middle-1"></div>
+            <div class="modal-middle-1"><img class='modal-img' src=${popData[data].thumbnail} /></div>
             <div class="modal-heading">
                 <div class="modal-contain">
                     <h2>${popData[data].Subtitle}</h2>
@@ -150,20 +156,17 @@ const workProfile = document.querySelector('.work-profiles-10');
 
 for (let i = 0; i < 3; i += 1) {
   workProfile.innerHTML += `
-  <div class="work-profile-1 ${popData[i].classNO}">
+  <div class="work-profile-1">
+  <img class="work-img" src=${popData[i].thumbnail} />
   <div class="works-text">
       <div class="works-title">
           <h3>
-          Multi-Post Stories<br>
-          Gain+Glory
+          ${popData[i].Project_name}
           </h3>
       </div>
       <div class="works-tags">
           <ul class="tags">
-              <li class="tech-tag">Ruby on Rails</li>
-              <li class="tech-tag">CSS</li>
-              <li class="tech-tag">Javascript</li>
-              <li class="tech-tag">HTML</li>
+          ${popData[i].Technologies.map((id) => `<li class="tech-tag">${id}</>`)}
           </ul>
       </div>
       <div class="works-cta">
@@ -180,20 +183,17 @@ const workProfile2 = document.querySelector('.work-profiles-20');
 
 for (let i = 3; i < popData.length; i += 1) {
   workProfile2.innerHTML += `
-  <div class="work-profile-1 ${popData[i].classNO}">
+  <div class="work-profile-1">
+  <img class="work-img" src=${popData[i].thumbnail} />
   <div class="works-text">
       <div class="works-title">
           <h3>
-          Multi-Post Stories<br>
-          Gain+Glory
+          ${popData[i].Project_name}
           </h3>
       </div>
       <div class="works-tags">
           <ul class="tags">
-              <li class="tech-tag">Ruby on Rails</li>
-              <li class="tech-tag">CSS</li>
-              <li class="tech-tag">Javascript</li>
-              <li class="tech-tag">HTML</li>
+          ${popData[i].Technologies.map((id) => `<li class="tech-tag">${id}</>`)}
           </ul>
       </div>
       <div class="works-cta">
