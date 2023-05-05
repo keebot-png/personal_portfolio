@@ -1,25 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
-html { box-sizing: border-box; }
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
 
 body { margin: 0; }
 
-.container {
-  position: relative;
-  height: 6715px;
-  min-width: fit-content;
+a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .headline-container { background: #fff; }
 
 .toolbar-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 200;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   display: flex;
-  height: 48px;
-  min-width: 375px;
-  top: 44px;
   justify-content: space-between;
-  align-items: center;
 }
 
 .name-container {
@@ -40,6 +45,7 @@ body { margin: 0; }
   flex-direction: column;
   justify-content: space-around;
   border-radius: 10px;
+  margin-top: 20px;
 }
 
 .modify {
@@ -197,11 +203,7 @@ body { margin: 0; }
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 64px 24px;
   gap: 58px;
-  min-width: 379px;
-  height: 3283px;
-  top: 708px;
 }
 
 .works-heading {
@@ -240,9 +242,10 @@ body { margin: 0; }
   min-width: 327px;
   justify-items: center;
   grid-template-rows: repeat(2, 1fr);
-  height: 474px;
+  height: 600px;
   background-color: #ebf0ee;
   border-radius: 8px;
+  border: 1px solid #c1c7d0;
 }
 
 .works-text {
@@ -265,14 +268,15 @@ body { margin: 0; }
   font-weight: 600;
   font-size: 20px;
   line-height: 32px;
-  width: 295px;
+
+  /* width: 295px; */
   height: 57px;
 }
 
 .work-img {
-  width: 200px;
+  /* width: 100%; */
   border-radius: 8px;
-  height: 180px;
+  height: 225px;
   align-self: center;
 }
 
@@ -360,10 +364,7 @@ body { margin: 0; }
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 64px 24px;
   gap: 58px;
-  min-width: 379px;
-  top: 708px;
 }
 
 .about-box {
@@ -381,8 +382,6 @@ body { margin: 0; }
   align-items: center;
   text-align: center;
   color: #172b4d;
-  width: 351px;
-  height: 48px;
 }
 
 .about-description {
@@ -393,8 +392,6 @@ body { margin: 0; }
   line-height: 32px;
   text-align: center;
   color: #42526e;
-  width: 351px;
-  height: 189px;
 }
 
 .about-cta {
@@ -515,9 +512,6 @@ body { margin: 0; }
   flex-direction: column;
   align-content: center;
   gap: 30px;
-  min-width: 220px;
-  height: 330px;
-  margin-top: 15px;
 }
 
 .contact-text {
@@ -616,6 +610,10 @@ textarea { resize: none; }
   line-height: 32px;
 }
 
+.my-email-1 a {
+  color: #008552;
+}
+
 /* Modal CSS */
 
 .modal {
@@ -663,6 +661,7 @@ textarea { resize: none; }
 /* modal content */
 
 .modal-content {
+  top: 120px;
   position: relative;
   background-color: #fff;
   width: 400px;
@@ -841,13 +840,13 @@ textarea { resize: none; }
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    scroll-behavior: smooth;
   }
 
   .container {
     position: relative;
     height: auto;
     background: #fff;
-    min-width: auto;
   }
 
   .headline-container {
@@ -867,6 +866,14 @@ textarea { resize: none; }
     align-items: center;
     justify-content: center;
     gap: 8px;
+    height: 90px;
+    background-color: #fff;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
   .menu-2 a {
@@ -884,7 +891,7 @@ textarea { resize: none; }
   .menu-2 a:hover,
   .menu-2 a:focus {
     transition: font-size 0.5s ease;
-    font-size: 35px; 
+    font-size: 35px;
     color: #333;
   }
 
@@ -949,8 +956,6 @@ textarea { resize: none; }
     display: flex;
     flex-direction: column;
     gap: 48px;
-    height: auto;
-    width: auto;
   }
 
   .recent-works-heading {
@@ -977,8 +982,7 @@ textarea { resize: none; }
     flex-direction: row;
     grid-gap: 10px;
     justify-content: center;
-    min-width: auto;
-    height: fit-content;
+    flex-wrap: wrap;
   }
 
   .work-profiles-20 {
@@ -986,8 +990,7 @@ textarea { resize: none; }
     flex-direction: row;
     grid-gap: 10px;
     justify-content: center;
-    min-width: auto;
-    height: fit-content;
+    flex-wrap: wrap;
   }
 
   .work-profile-1 {
@@ -995,8 +998,7 @@ textarea { resize: none; }
     order: 1;
     grid-template-rows: repeat(2, 1fr);
     border: 3px solid #d0d9d4;
-    height: 474px;
-    min-width: 220px;
+    height: 600px;
     border-radius: 8px;
   }
 
@@ -1007,9 +1009,8 @@ textarea { resize: none; }
     grid-row: 2;
     background: #fff;
     border-radius: 8px;
-    height: auto;
-    width: auto;
     padding: 0;
+    height: 275px;
   }
 
   .works-title h3 {
@@ -1217,7 +1218,7 @@ textarea { resize: none; }
     flex-direction: row;
     align-items: flex-start;
     height: 500px;
-    min-width: auto;
+    width: 100vw;
     padding: 30px;
     border-bottom: 2px solid #dfe1e6;
     background-image:
