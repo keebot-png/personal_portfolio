@@ -72,7 +72,6 @@ body { margin: 0; }
   flex-direction: column;
   list-style-type: none;
   width: 100vw;
-  height: 100vh;
   background-color: #fff;
   position: fixed;
   margin: 0;
@@ -271,9 +270,9 @@ body { margin: 0; }
 }
 
 .work-img {
-  width: 310px;
+  width: 200px;
   border-radius: 8px;
-  height: 200px;
+  height: 180px;
   align-self: center;
 }
 
@@ -423,6 +422,7 @@ body { margin: 0; }
 .about-button:hover {
   background: #36b37f;
   transform: scale(1.2);
+  transition: all 0.8s ease;
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
   cursor: pointer;
 }
@@ -883,7 +883,8 @@ textarea { resize: none; }
 
   .menu-2 a:hover,
   .menu-2 a:focus {
-    background-color: rgb(10, 218, 96);
+    transition: font-size 0.5s ease;
+    font-size: 35px; 
     color: #333;
   }
 
@@ -1347,8 +1348,6 @@ textarea { resize: none; }
   textarea { resize: none; }
 
   ul { list-style-type: none; }
-
-  .my-email-1 { display: none; }
 
   /* Modal CSS desktop */
 
