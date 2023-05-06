@@ -101,8 +101,10 @@ function modalSection(data) {
                     </ul>
                 </div>
                 <div class="buttons">
-                <button type='button' class="modal-11"><a href='${popData[data].ProjectLink}' target="_blank">See live</a></button>
-                <button type='button' class="modal-12"><a href='${popData[data].GitHubLink}' target="_blank">See Source</a></button>
+                <a href='${popData[data].ProjectLink}' target="_blank"
+                rel="noopener" class="modal-11" target="_blank">See live</a>
+                <a href='${popData[data].GitHubLink}' target="_blank"
+                rel="noopener" class="modal-12 target="_blank">See Source</a>
                 </div>
             </div>
             
@@ -110,8 +112,10 @@ function modalSection(data) {
                 <p>${popData[data].Description}</p>
             </div>
             <div class="buttons-1">
-                <button type='button' class="modal-11"><a href='${popData[data].ProjectLink}' target="_blank">See live</a></button>
-                <button type='button' class="modal-12"><a href='${popData[data].GitHubLink}' target="_blank">See Source</a></button>
+                <a href='${popData[data].ProjectLink}' target="_blank"
+                rel="noopener" class="modal-11" target="_blank">See live</a>
+                <a href='${popData[data].GitHubLink}' target="_blank"
+                rel="noopener" class="modal-12 target="_blank">See Source</a>
             </div>
         </div>
     </div>

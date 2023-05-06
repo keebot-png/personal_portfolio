@@ -130,7 +130,6 @@ a {
   flex-direction: column;
   align-items: center;
   padding: 64px 24px;
-  gap: 58px;
   background-image: url(./Images/header-illsutration-mobile.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -144,17 +143,7 @@ a {
   line-height: 52px;
   text-align: center;
   overflow: hidden;
-
-  /* Ensures the content is not revealed until the animation */
-  border-right: 0.15em solid #333;
-
-  /* The typewriter cursor */
-  white-space: wrap;
-
-  /* Adjust as needed */
-  animation: typing 5s steps(30, end) infinite;
-
-  /* The typing animation */
+  display: inline-block;
 }
 
 .description-title span { color: #36b37f; }
@@ -383,6 +372,7 @@ a {
 
 .about-description {
   font-family: 'Inter', sans-serif;
+  max-width: 85vw;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -662,7 +652,6 @@ textarea { resize: none; }
   position: relative;
   background-color: #fff;
   width: 400px;
-  height: 900px;
   margin: 2rem;
   max-height: auto;
   padding: 2rem;
@@ -770,8 +759,10 @@ textarea { resize: none; }
   padding: 8px 12px;
 }
 
-/* .modal-middle-1 {
-} */
+.modal-middle-1 {
+  display: flex;
+  justify-content: center;
+}
 
 .modal-img {
   height: 250px;
@@ -787,7 +778,7 @@ textarea { resize: none; }
   padding: 8px;
 }
 
-.buttons-1 button {
+.buttons-1 a {
   padding: 9px 9px;
   gap: 12px;
   background: #36b37f;
@@ -804,9 +795,7 @@ textarea { resize: none; }
 
 .modal-bottom {
   display: flex;
-  height: auto;
   min-width: 311px;
-  border-radius: nullpx;
 }
 
 .modal-bottom p {
@@ -905,6 +894,25 @@ textarea { resize: none; }
     justify-content: center;
     max-width: 930px;
     height: 756px;
+  }
+
+  .description-title {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 52px;
+    text-align: center;
+    overflow: hidden;
+  
+    /* Ensures the content is not revealed until the animation */
+    border-right: 0.15em solid #333;
+  
+    /* The typewriter cursor */
+    white-space: nowrap;
+  
+    /* Adjust as needed */
+    animation: typing 5s steps(30, end) infinite;
   }
 
   .description-title {
@@ -1121,6 +1129,7 @@ textarea { resize: none; }
 
   .about-description {
     font-family: 'Inter', sans-serif;
+    max-width: 70vw;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -1396,8 +1405,7 @@ textarea { resize: none; }
   .modal-content {
     position: relative;
     background-color: #fff;
-    width: 895px;
-    height: 1083px;
+    width: 80vw;
     margin: 2rem;
     max-height: 100vh;
     padding: 2rem;
@@ -1505,9 +1513,11 @@ textarea { resize: none; }
   .modal-img {
     display: flex;
     align-items: center;
-    border: 2px solid black;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     height: 600px;
     max-width: 800px;
+    border-radius: 8px;
     background-repeat: no-repeat;
     background-size: contain;
   }
@@ -1515,11 +1525,13 @@ textarea { resize: none; }
   .buttons {
     display: flex;
     padding: 25px;
-    height: 60px;
-  }
-
-  .buttons button {
+    height: 40px;
     gap: 12px;
+  }
+  
+  .buttons a {
+    /* max-width: 250px; */
+    padding: 8px;
     min-width: fit-content;
     background: #36b37f;
     border-radius: 6px;
