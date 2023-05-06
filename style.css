@@ -149,10 +149,10 @@ a {
   border-right: 0.15em solid #333;
 
   /* The typewriter cursor */
-  white-space: nowrap;
+  white-space: wrap;
 
   /* Keeps the content on a single line */
-  letter-spacing: 0.15em;
+  /* letter-spacing: 0.15em; */
 
   /* Adjust as needed */
   animation: typing 5s steps(30, end) infinite;
