@@ -818,7 +818,7 @@ textarea { resize: none; }
   font-size: 21px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 820px) {
   html,
   body {
     width: 100%;
@@ -1405,9 +1405,8 @@ textarea { resize: none; }
   .modal-content {
     position: relative;
     background-color: #fff;
-    width: 80vw;
+    min-width: 750px;
     margin: 2rem;
-    max-height: 100vh;
     padding: 2rem;
     box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
     border-radius: 8px;
@@ -1550,7 +1549,6 @@ textarea { resize: none; }
   .modal-bottom {
     display: flex;
     min-width: 500px;
-    height: 200px;
     align-items: center;
   }
 
