@@ -722,8 +722,8 @@ textarea { resize: none; }
 
 .modal-contain {
   display: flex;
-  min-width: 259px;
   flex-direction: column;
+  max-width: 90%;
 }
 
 .modal-heading h2 {
@@ -765,7 +765,7 @@ textarea { resize: none; }
 }
 
 .modal-img {
-  height: 250px;
+  height: 175px;
   max-width: 400px;
   background-repeat: no-repeat;
   background-size: contain;
@@ -774,8 +774,9 @@ textarea { resize: none; }
 .buttons { display: none; }
 
 .buttons-1 {
-  min-width: 250px;
-  padding: 8px;
+  display: flex;
+  gap: 5px;
+  flex: wrap;
 }
 
 .buttons-1 a {
@@ -795,7 +796,6 @@ textarea { resize: none; }
 
 .modal-bottom {
   display: flex;
-  min-width: 311px;
 }
 
 .modal-bottom p {
